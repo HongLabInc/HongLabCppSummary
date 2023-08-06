@@ -396,3 +396,12 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Output files from examples
+**/my_contacts.txt
+
+# Linux executables
+**/main
+
+# Windows executables
+*.exe
