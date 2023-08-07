@@ -12,3 +12,4 @@
 ## 예제 사용 방법
 - VS2022: HongLabCppSummary.sln 더블클릭
 - VSCode: 해상되는 환경의 .vscode_XXX 폴더를 .vscode로 변경 (강의 영상에 설명 있어요)
+- 맥OS: 준비중입니다.
