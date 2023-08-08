@@ -11,7 +11,7 @@ const int kMaxStr = 100; // 전역 상수
 
 int Min(int a, int b)
 {
-    return a < b ? a : b; // 삼항연산자
+    return a < b ? a : b; // 조건연산자(삼항연산자)
 }
 
 int main()
@@ -19,7 +19,8 @@ int main()
     // 문자열 복사
     char str1[] = "Hello, World!";
     char str2[kMaxStr];
-    // dest, src 안내 (복사할 메모리 크기 주의 안내)
+
+    // dest, src 안내 (복사할 메모리 크기 주의)
     memcpy(str2, str1, Min(sizeof(str1), sizeof(str2)));
     cout << str2 << endl;
 
