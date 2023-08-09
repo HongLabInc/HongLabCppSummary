@@ -405,3 +405,6 @@ FodyWeavers.xsd
 
 # Windows executables
 *.exe
+
+# Mac
+*.plist
