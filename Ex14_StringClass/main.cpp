@@ -86,13 +86,13 @@ public:
     {
         int old_size = size_;
 
-        // 다른 멤버 함수 호출 가능 안내
-        Resize(size_ + app_str->size_);
+        // 다른 멤버 함수 호출 가능
+        // Resize(...);
 
-        // 그림을 스스로 그려내서 이해할 수 있도록 도와줘야 함
+        // 중요한 개념
         for (int i = old_size; i < size_; i++)
         {
-            str_[i] = app_str->str_[i - old_size];
+            // TODO: 복사
         }
     }
 
