@@ -19,7 +19,6 @@ template <typename T>
 class MyClass
 {
 public:
-public:
     T data_;
 };
 
