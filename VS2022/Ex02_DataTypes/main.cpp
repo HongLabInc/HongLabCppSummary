@@ -54,7 +54,7 @@ int main()
 
     cout << boolalpha << true << endl;   // true
     cout << is_good << endl;             // false
-    cout << noboolalpha << true << endl; // true
+    cout << noboolalpha << true << endl; // 1
 
     // 논리 연산 몇 가지 소개 (참고 문서 사용)
     // https://en.cppreference.com/w/cpp/language/operator_precedence
@@ -69,7 +69,7 @@ int main()
     cout << (3 == 3) << endl;
     cout << (i >= 3) << endl;
     cout << ('a' != 'c') << endl;
-    cout << ('a' != 'c') << endl;
+    cout << ('a' != 'a') << endl;
 
     // 영역(scope)
 

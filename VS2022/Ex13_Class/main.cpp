@@ -18,7 +18,7 @@ public:
         cout << "MyClass()" << endl;
     }
 
-    MyClass(int number) // init_str이 유효한 메모리라고 가정
+    MyClass(int number)
     {
         cout << "MyClass(int number)" << endl;
 

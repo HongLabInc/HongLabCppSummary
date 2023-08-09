@@ -27,7 +27,8 @@ int main()
     char *dynamic_array = new char[kMaxStr];
 
     // 주의: 동적할당 메모리는 변수 사이즈가 포인터 사이즈임 (배열이 아님)
-    memcpy(dynamic_array, str1, kMaxStr);
+    memcpy(dynamic_array, str1, Min(sizeof(str1), sizeof(kMaxStr)));
+    // memcpy(dynamic_array, str2, kMaxStr);
     cout << dynamic_array << endl;
 
     cout << str1 << " " << str2 << " " << dynamic_array << endl;
