@@ -10,6 +10,7 @@
 - 코테 준비 요령, 강의 목표, 환경 설정 ([유튜브 영상](https://youtu.be/uDq7woPOZ_A))
 
 ## 예제 사용 방법
+- 한글 입출력이 없는 버전은 english 폴더 아래에 있습니다.
 - VS2022: HongLabCppSummary.sln 더블클릭
-- VSCode: 해상되는 환경의 .vscode_XXX 폴더를 .vscode로 변경 (강의 영상에 설명 있어요)
-- 맥OS: 준비중입니다.
+- VSCode: 해당되는 환경의 .vscode_XXX 폴더를 .vscode로 변경 (강의 영상에 설명 있어요)
+
