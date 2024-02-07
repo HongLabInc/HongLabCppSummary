@@ -15,3 +15,22 @@
 - VS2022: HongLabCppSummary.sln 더블클릭
 - VSCode: 해당되는 환경의 .vscode_XXX 폴더를 .vscode로 변경 (강의 영상에 설명 있어요)
 
+## 맥 사용 추가 안내
+- 2024년 2월 6일 현재 VSCode가 1.86.0로 업데이트 되면서 문제가 생긴 것 같습니다.
+- 현재 확인한 가장 간단한 해결책은 "C/C++ Runner v9.4.7" 확장을 사용하는 것입니다. 사용법은 확장 자체 설명 영상 보시면 간단합니다.
+- .vscode 폴더를 삭제한 후에 C/C++ Runner 확장 설치 후에 나타나는 하단의 톱니바퀴 아이콘을 클릭하면 .vscode 폴더가 다시 생기면서 .json 설정파일들이 만들어집니다. 이 파일들 안에 c++17 설정만 해주면 됩니다.
+
+settings.json
+```
+"C_Cpp_Runner.cppStandard": "c++17",
+```
+c_cpp_properties.json
+```
+"cppStandard": "c++17",
+```
+launch.json
+```
+"args": ["-std=c++17"],
+```
+
+- 그 외에 XCode를 설치했는데 필수인지는 확인을 안해봤습니다. VCode 터미널에 XCode 사용 동의하라고 뜨면서 사용자 권한으로 다시하라고 명령어를 안내해줄텐데 맥 자체 터미널을 만들어서 그 명령어대로 실행하고 동의하면 됩니다.
